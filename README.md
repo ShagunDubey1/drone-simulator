@@ -4,7 +4,7 @@ The Drone Simulator app simulates drone motion on a map (Google Maps or MapBox) 
 
 ## Features
 
-- **World Maps Integration:** Displays a world map using Google Maps or MapBox as the background. You can utilize npm packages for integrating these maps.
+- **World Maps Integration:** Displays a world map using Google Maps as the background. You can utilize npm packages for integrating these maps.
   
 - **User Input:** Accepts multiple sets of latitude and longitude in time series format as input from the user. Alternatively, users can upload a file with the entire time series information.
 
@@ -26,14 +26,20 @@ To run the project, make sure you have the following installed:
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/drone-simulator.git
+   git clone https://github.com/ShagunDubey1/drone-simulator.git
    ```
 2. Install the required npm packages:
 
    ```bash
    npm install
    ```
-3. Start the application:
+3. Set .env file with your google key
+   
+   ```bash
+   GOOGLE_API_KEY="your-api-key"
+   ```
+   
+4. Start the application:
 
    ```bash
    npm run dev
