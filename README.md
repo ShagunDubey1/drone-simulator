@@ -36,7 +36,7 @@ To run the project, make sure you have the following installed:
 3. Set .env file with your google key
    
    ```bash
-   GOOGLE_API_KEY="your-api-key"
+   VITE_GOOGLE_API_KEY="your-api-key"
    ```
    
 4. Start the application:
