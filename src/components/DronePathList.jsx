@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 const DronePathList = ({ paths, onSelect, onDelete, selectedPathId }) => {
   if (!paths || paths?.length === 0) {
     return (

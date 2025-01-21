@@ -10,7 +10,7 @@ const SIMULATION_SPEED = 1000;
 
 const App = () => {
   const { isLoaded } = useLoadScript({
-    googleMapsApiKey: 'AIzaSyAXIqEbK66J1PJS0ZC9qX_Sa38Cg-Oni0I',
+    googleMapsApiKey: import.meta.env.VITE_GOOGLE_API_KEY,
   });
 
   const [coordinates, setCoordinates] = useState([]);

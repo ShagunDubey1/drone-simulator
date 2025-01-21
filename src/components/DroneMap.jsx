@@ -14,7 +14,7 @@ const markerIcon = {
   scaledSize: { width: 32, height: 32 },
 };
 
-const DroneMap = ({ coordinates, currentIndex, pathProgress }) => {
+const DroneMap = ({ coordinates, currentIndex }) => {
   const center = coordinates.length > 0 ? coordinates[0] : defaultCenter;
 
   return (
